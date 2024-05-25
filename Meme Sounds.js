@@ -1,4 +1,3 @@
-alert ("Welcome to MemeSounds by HuxOP & CeswarriorYT")
 // script.js
 document.addEventListener('DOMContentLoaded', function() {
     var notification = document.getElementById('notification');
