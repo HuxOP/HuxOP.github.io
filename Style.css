@@ -1,0 +1,116 @@
+h1 {
+    font-family: Arial, sans-serif;
+
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h3 {
+    font-family: Arial, sans-serif;
+}
+/*alternativa a el elemento p */
+h4 {
+    font-family: Arial, sans-serif;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.patchnotes {
+    text-align: left;
+}
+
+/* Archivo styles.css */
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas iguales */
+    gap: 20px; /* Espacio entre los divs */
+    padding: 20px;
+}
+
+.item {
+    background-color: lightgray; /* Fondo para cada div */
+    padding: 10px;
+    border: 1px solid lightgray; /* Borde negro alrededor de cada div */
+    border-radius: 15px; /* Esquinas redondeadas */
+    text-align: center;
+}
+
+audio {
+    width: 100%; /* Asegura que el audio controle use el ancho completo del div */
+    border-radius: 5px; /* Opcional: esquinas redondeadas para el control de audio */
+}
+
+#showNotification {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.notification {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f44336;
+    color: white;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    z-index: 1000;
+}
+
+.notification.show {
+    display: block;
+}
+
+.close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: lightgray;
+    border: 4px solid lightgray;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 16px;
+}
+
+nav ul li {
+    display: inline;
+    border-right: 2px solid black;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+nav ul li:last-child {
+    border-color: none;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+nav li.selecionado {
+    color: whitesmoke;
+}
+
+footer{
+    background-color: lightgray; /* Fondo para cada div */
+    padding: 10px;
+    border: 1px solid lightgray; /* Borde negro alrededor de cada div */
+    border-radius: 15px; /* Esquinas redondeadas */
+    text-align: center;
+}
